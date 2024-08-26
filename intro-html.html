@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Quick Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            padding-bottom: 50px;
+            color: #333;
+            background-color: #55bec0;
+        }
+        header {
+            background: #121b2b;
+            color: #fff;
+            padding: 1em 0;
+            padding-bottom: 5px;
+            margin-top: -20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #55bec0;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            padding: 0.5em;
+            margin: 0.5em;
+            border: 1px solid #6dffe7;
+            border-radius: 5px;
+        }
+
+        .title {
+          text-align: center;
+          font-size: 24px;
+        }
+        section {
+            padding: 2em;
+            margin: 0 auto;
+            max-width: 800px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        footer {
+            background: #121b2b;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            padding-top: 5px;
+            margin-bottom: -30px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p>Zasheira Li's Declassified Coding Survival Guide</p>
+    </header>
+    <nav>
+      
+        <a href="#introduction">Introduction</a>
+        <a href="#basic-syntax">Basic Syntax</a>
+        <a href="#elements">Elements</a>
+        <a href="#attributes">Attributes</a>
+        <a href="#examples">Examples</a>
+    </nav>
+    <section id="introduction">
+      <p class="title">Your quick guide to mastering HTML!</p>
+        <h2>Introduction</h2>
+        <p>HTML stands for HyperText Markup Language. It is the standard language for creating webpages. HTML describes the structure of webpages using markup.</p>
+    </section>
+    <section id="basic-syntax">
+        <h2>Basic Syntax</h2>
+        <p>HTML is made up of elements, which are enclosed in tags. Tags are enclosed in angle brackets, like this: <code>&lt;tag&gt;</code>. Most elements have an opening tag and a closing tag. For example:</p>
+        <pre><code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code></pre>
+    </section>
+    <section id="elements">
+        <h2>Elements</h2>
+        <p>HTML elements can be nested inside one another. Here are some common elements:</p>
+        <ul>
+            <li><strong>&lt;h1&gt; to &lt;h6&gt;</strong> - Header tags, where &lt;h1&gt; is the largest and &lt;h6&gt; is the smallest.</li>
+            <li><strong>&lt;p&gt;</strong> - Paragraph tag for blocks of text.</li>
+            <li><strong>&lt;a&gt;</strong> - Anchor tag for links.</li>
+            <li><strong>&lt;img&gt;</strong> - Image tag to display pictures.</li>
+        </ul>
+    </section>
+    <section id="attributes">
+        <h2>Attributes</h2>
+        <p>Attributes provide additional information about an element. They are written in the opening tag. For example:</p>
+        <pre><code>&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;</code></pre>
+        <p>In the example above, <code>href</code> is an attribute of the <code>&lt;a&gt;</code> tag.</p>
+    </section>
+    <section id="examples">
+        <h2>Examples</h2>
+        <h3>Creating a Simple Page</h3>
+        <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;My First Webpage&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hello, World!&lt;/h1&gt;
+    &lt;p&gt;This is a simple webpage.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+    </section>
+    <footer>
+        <p>&copy; 2024 Zasheira Li's Declassified Coding Survival Guide. All rights reserved.</p>
+    </footer>
+</body>
+</html>
